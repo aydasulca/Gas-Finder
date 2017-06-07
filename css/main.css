@@ -31,3 +31,8 @@ header .fa-chevron-left {
   padding-top: 15px;
   border-bottom: 1px solid gray;
 }
+.style-span{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: gray;
+}

@@ -1,20 +1,24 @@
 const SearchItem= (station,update) => {
-    //const search = $('<div class="container-fluid></div>"');
     const row = $('<div class="row"></div>');
     const col = $('<div class="col-xs-12 style-container-gas"></div>');
     const col9 = $('<div class="col-xs-9"></div>');
-    const name = $('<p class="col-xs-12">'+station.name+'</p>');
+    const name = $('<h4 class="col-xs-12"><strong>'+station.name+'</strong></h4>');
     const address = $('<p class="col-xs-12">'+station.address+'</p>');
     const col3 = $('<div class="col-xs-3"></div>');
-    const icon = $('<span class="col-xs-12"><i class="fa fa-map" aria-hidden="true"></i></span>');
+    const icon = $('<span class="col-xs-12 style-span"><i class="fa fa-map" aria-hidden="true"></i></span>');
 
-    col9.append(address);
     col9.append(name);
+    col9.append(address);
     col3.append(icon);
     col.append(col9);
     col.append(col3);
     row.append(col);
-
+/*
+    icon.on('click',(e) => {
+      e.preventDefault();
+      update();
+    });
+*/
     return row;
 
 };
