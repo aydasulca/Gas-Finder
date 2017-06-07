@@ -5,7 +5,6 @@ const Header = (update) => {
   const title = $("<span>Gas Finder</span>");
 
   header.append(title);
-  header.append(Search());
 
   return header;
 }

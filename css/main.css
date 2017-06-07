@@ -8,7 +8,7 @@
 header {
   color: #fff;
   font-size: 18px;
-  height: 110px;
+  height: 50px;
   line-height: 56px;
   padding-left: 16px;
   background-color: #F44336;
@@ -16,4 +16,18 @@ header {
 
 header .fa-chevron-left {
   margin-right: 16px;
+}
+.style-container{
+  background-color: #F44336;
+  padding-bottom: 10px;
+}
+.input-group-addon{
+  background-color: #fff;
+}
+.form-control{
+  border-left: none;
+}
+.style-container-gas {
+  padding-top: 15px;
+  border-bottom: 1px solid gray;
 }
