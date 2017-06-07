@@ -13,12 +13,13 @@ const SearchItem= (station,update) => {
     col.append(col9);
     col.append(col3);
     row.append(col);
-/*
+
     icon.on('click',(e) => {
       e.preventDefault();
+      state.selectedStation = station;
       update();
     });
-*/
+
     return row;
 
 };
